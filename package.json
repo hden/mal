@@ -1,0 +1,32 @@
+{
+  "name": "mal",
+  "version": "0.0.0",
+  "description": "Make a Lisp (in BigQuery UDF)",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hden/mal.git"
+  },
+  "keywords": [
+    "lisp",
+    "bigquery"
+  ],
+  "author": "Haokang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/mal/issues"
+  },
+  "homepage": "https://github.com/hden/mal#readme",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "ignore": [
+      "deps/"
+    ]
+  }
+}
